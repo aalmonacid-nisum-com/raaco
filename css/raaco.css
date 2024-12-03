@@ -1,0 +1,275 @@
+strong, b {
+  font-weight: 700; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 0 0 2rem 0;
+  padding: 0; }
+
+input::placeholder, textarea::placeholder {
+  color: #ABAFB1 !important; }
+
+.color-base {
+  color: #2C3792; }
+
+.color-primary {
+  color: #F9A72B; }
+
+.font-size-40 {
+  font-size: 40px; }
+
+.font-size-20 {
+  font-size: 20px; }
+
+.btn-primary {
+  background-color: #F9A72B;
+  width: 100%;
+  max-width: 375px;
+  height: 58px;
+  border: 0;
+  outline: 0;
+  line-height: 58px;
+  padding: 0; }
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list li {
+    background: url(../images/html/bullet-list.svg) no-repeat 0 3px;
+    margin: 0 0 .5rem 0;
+    padding: 0 0 5px 30px; }
+
+.header {
+  min-height: 145px;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  align-items: center;
+  display: flex; }
+  .header a {
+    color: #2D2F67; }
+    .header a:hover {
+      color: #F9A72B; }
+
+.banner-central {
+  background: url(../images/fotos-banners/foto-banner-central.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 840px;
+  position: relative;
+  color: #FFF; }
+  .banner-central:before {
+    background-color: rgba(21, 23, 79, 0.79);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+  .banner-central .container {
+    position: relative;
+    z-index: 9; }
+  .banner-central .intro {
+    margin: 0 auto;
+    max-width: 1100px;
+    line-height: 32px;
+    padding: 5rem 0 2rem 0;
+    font-size: 20px; }
+  .banner-central .banner-central-blocks {
+    max-width: 1100px;
+    margin: 0 auto; }
+    .banner-central .banner-central-blocks h2 {
+      font-size: 24px;
+      font-weight: 400;
+      padding: 0;
+      margin: 0 0 1rem 0;
+      font-family: "Roboto Condensed", sans-serif;
+      color: #F9A72B; }
+    .banner-central .banner-central-blocks .cards {
+      background-color: rgba(19, 20, 60, 0.8);
+      border-radius: 10px;
+      height: 100%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      padding: 4rem 1rem 1rem 1rem;
+      min-height: 260px;
+      line-height: 120%; }
+
+.servicios-generales {
+  color: #2C3792;
+  position: relative; }
+  .servicios-generales:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 10px;
+    background-color: #F9A72B; }
+  .servicios-generales h2 {
+    color: #2C3792;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0 0 2rem 0;
+    padding: 0; }
+  .servicios-generales .servicios-generales-detalle {
+    max-width: 615px;
+    padding: 0 0 0 4rem; }
+  .servicios-generales .col-img {
+    max-width: 640px; }
+  .servicios-generales img {
+    width: 100%; }
+  .servicios-generales .intro {
+    padding-bottom: 1rem; }
+
+select option[value="0"] {
+  color: gray !important; }
+
+select:invalid {
+  color: gray !important; }
+
+.constructora {
+  background: url(../images/fotos-banners/foto-constructora.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 770px;
+  position: relative;
+  color: #FFF;
+  padding: 2rem 0; }
+  .constructora:before {
+    background-color: rgba(0, 0, 0, 0.57);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+  .constructora .container {
+    position: relative;
+    z-index: 9; }
+  .constructora .constructora-blocks {
+    background-color: #EEF0FF;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #24265D;
+    line-height: 28px;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem; }
+  .constructora .intro {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    padding: 2rem 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px; }
+  .constructora h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 2rem 0;
+    padding: 0; }
+
+.comercializadora {
+  max-width: 1070px;
+  margin: 0 auto; }
+  .comercializadora h3 {
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400; }
+
+.marcas {
+  border-radius: 10px;
+  background-color: #FFF;
+  padding: 2rem 1.5rem;
+  color: #2C3792;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 370px; }
+
+.contactanos {
+  padding: 2rem 0;
+  max-width: 630px;
+  margin: 0 auto;
+  padding: 3rem 2rem; }
+  .contactanos h2 {
+    text-align: center;
+    color: #2D2F67;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 2rem; }
+  .contactanos .form-group {
+    border: 1px solid #ADADAD;
+    border-radius: 8px;
+    padding: 0;
+    margin-bottom: 1rem; }
+  .contactanos label {
+    font-weight: 700;
+    color: #5E6366;
+    display: block;
+    margin: 0;
+    padding: 5px 0 0 15px; }
+  .contactanos .form-control {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    height: 34px; }
+  .contactanos .form-select {
+    border: 0;
+    outline: 0;
+    box-shadow: none; }
+  .contactanos textarea.form-control {
+    height: 160px;
+    overflow: auto;
+    resize: none; }
+  .contactanos .boton {
+    padding: 2rem 0; }
+  .contactanos .obligatorio {
+    border: 1px solid #c03; }
+
+.footer {
+  background-color: #2D2F67;
+  padding: 3rem 0 2rem 0; }
+  .footer .whatsapp {
+    background: url(../images/html/ico-whatsapp.svg) no-repeat 15px 20px #2C3792;
+    color: #FFF;
+    max-width: 383px;
+    padding: 10px 10px 10px 100px;
+    border-radius: 10px; }
+
+@media (max-width: 991px) {
+  .servicios-generales .col-img {
+    max-width: 100%; }
+  .servicios-generales .servicios-generales-detalle {
+    max-width: 100%;
+    padding: 2rem; } }
+@media (max-width: 780px) {
+  body, html {
+    overflow-x: hidden; }
+
+  .banner-central .banner-central-blocks .cards {
+    min-height: inherit;
+    padding: 1rem; }
+
+  .header nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center; }
+    .header nav a {
+      display: block; } }
+
+/*# sourceMappingURL=raaco.css.map */
